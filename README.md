@@ -1,6 +1,4 @@
-# Team-Profile-Generator
-
-## This README.md was created using the described application below 
+# Team-Profile-Generator 
 
 ## Description
 This project will allow a team lead or manager to efficiently create a team portfolio. It will display a list of attributes based upon if the team member is a intern, manager, or engineer.
