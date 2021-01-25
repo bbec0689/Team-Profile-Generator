@@ -1,11 +1,10 @@
-const { TestScheduler } = require("jest");
-const Employee = require("../lib/Employee");
+var Employee = require("../lib/Employee.js");
 
-TestScheduler("grab employee name", () => {
+test("grab employee name", () => {
     Employee = new Employee("Dave", "232", "dave@dave.com")
 
     expect(Employee.name).toBe("Dave")
     expect(Employee.id).toBe("232")
-    expect(employee.email).toBe("dave@dave.com")
+    expect(Employee.email).toBe("dave@dave.com")
 
 });
